@@ -18,6 +18,17 @@
 
       .list-group-item{
         text-align: center;
+        margin-top: -10px;
+      }
+
+      .banner{
+        background-color: #FFD300;
+        text-align: center;
+      }
+
+      .qr-code{
+        text-align: center;
+        margin-top: -30px;
       }
 
     </style>
@@ -27,7 +38,9 @@
   <body>
     <div class="container">
 
-       <img src="banner.png" class="img-fluid" alt="...">
+      <div class="banner">
+        <img src="banner.png" class="img-fluid" alt="...">
+      </div> 
         
         <div class="fl">
             <p class="fst-normal">НАЖМИТЕ НА КНОПКУ НИЖЕ <br /> ЧТОБЫ ПЕРЕЙТИ НА KASPI ПЛАТЕЖИ</p>
@@ -40,10 +53,12 @@
           </div>
 
           <div class="fl">
-            <p class="fst-normal">ИЛИ НАЖМИТЕ НА QR-КОД В ПРИЛОЖЕНИИ KASPI И НАВЕДИТЕ КАМЕРУ НА ЭТОТ QR-КОД</p>
+            <p class="fst-normal">ИЛИ НАВЕДИТЕ КАМЕРУ НА ЭТОТ QR-КОД В ПРИЛОЖЕНИИ KASPI</p>
           </div>
 
-          <img src="qr-code.png" class="img-fluid" alt="...">
+          <div class="qr-code">
+            <img src="qr-code.png" class="img-fluid" alt="...">
+          </div>
         
     </div>
 
